@@ -295,7 +295,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     ln -sf ~/.config/HyprV/waybar/style/style.css ~/.config/waybar/style.css
     ln -sf ~/.config/HyprV/wlogout/layout ~/.config/wlogout/layout
     ln -sf ~/.config/HyprV/wlogout/style.css ~/.config/wlogout/style.css
-    ln -sf ~/.config/HyprV/wlogout/icons/* ~/.config/wlogout/icons/
+    ln -sf ~/.config/HyprV/wlogout/icons/ ~/.config/wlogout/icons/
     ln -sf ~/.config/HyprV/wofi/config ~/.config/wofi/config
     ln -sf ~/.config/HyprV/wofi/style/style.css ~/.config/wofi/style.css
 
@@ -327,7 +327,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     xfconf-query -c xsettings -p /Net/IconThemeName -s "Papirus-Dark"
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
     gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
-    cp -f ~/.config/HyprV/backgrounds/v3-background.jpg /usr/share/sddm/themes/sdt/wallpaper.jpg
+    cp -f ~/.config/HyprV/backgrounds/background.jpg /usr/share/sddm/themes/sdt/wallpaper.jpg
 fi
 
 ### Install the starship shell ###
