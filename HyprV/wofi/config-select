@@ -1,0 +1,10 @@
+width=250
+height=140
+show=drun
+hide_scroll=true
+normal_window=true
+no_actions=true
+orientation=vertical
+gtk_dark=true
+dynamic_lines=true
+hide_search=true

@@ -1,0 +1,131 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+}
+
+window#waybar {
+  background: rgba(21, 18, 27, 0);
+  color: #cdd6f4;
+}
+
+#workspaces button {
+  color: #313244;
+}
+
+#workspaces button.active {
+  color: #a6adc8;
+}
+
+#workspaces button.focused {
+  color: #a6adc8;
+  background-color: #eba0ac;
+}
+
+#workspaces button.urgent {
+  color: #11111b;
+  background-color: #a6e3a1;
+}
+
+#workspaces button:hover {
+  background-color: transparent;
+  border: 1px solid #52525b;
+  color: #cdd6f4;
+  border-radius: 8px;
+}
+
+#custom-launch_wofi,
+#custom-chatgpt,
+#custom-rocketseat,
+#custom-lock_screen,
+#custom-power_btn,
+#cpu,
+#disk,
+#custom-updates,
+#custom-whatsapp,
+#custom-github,
+#custom-email,
+#custom-youtube_music,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#language,
+#workspaces,
+#backlight {
+  background-color: #18181b;
+  opacity: 0.8;
+  padding: 2px 6px;
+  margin: 4px 0px 0px;
+}
+
+#custom-launch_wofi {
+  color: #89b4fa;
+  margin-left: 4px;
+  border-radius: 8px 0px 0px 8px;
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+  border-left: 1px solid #525252;
+}
+
+#workspaces {
+  margin-right: 8px;
+  border-radius: 0px 8px 8px 0px;
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+  border-right: 1px solid #525252;
+}
+
+#disk, #custom-email, #custom-power_btn {
+  margin-right: 8px;
+}
+
+#cpu, #custom-lock_screen, #battery, #custom-whatsapp, #custom-launch_wofi {
+  border-radius: 8px 0px 0px 8px;
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+  border-left: 1px solid #525252;
+}
+
+#memory, #custom-github, #custom-rocketseat, #custom-youtube_music, #custom-updates, #custom-chatgpt, #clock, #backlight, #language, #pulseaudio {
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+}
+
+#disk, #custom-power_btn, #custom-email, #tray, #workspaces {
+  border-radius: 0px 8px 8px 0px;
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+  border-right: 1px solid #525252;
+}
+
+#tray {
+  margin-right: 4px;
+}
+
+#pulseaudio {
+  color: #89b4fa;
+}
+
+#pulseaudio.microphone {
+  color: #cba6f7;
+}
+
+#battery {
+  color: #a6e3a1;
+}
+
+tooltip {
+  background: #18181b;
+  opacity: 0.7;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #525252;
+}
+
+tooltip label{
+  color: #cdd6f4;
+}
