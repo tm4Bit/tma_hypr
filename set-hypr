@@ -295,7 +295,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     ln -sf ~/.config/HyprV/waybar/style/style.css ~/.config/waybar/style.css
     ln -sf ~/.config/HyprV/wlogout/layout ~/.config/wlogout/layout
     ln -sf ~/.config/HyprV/wlogout/style.css ~/.config/wlogout/style.css
-    ln -sf ~/.config/HyprV/wlogout/icons/ ~/.config/wlogout/icons/
+    cp -r ~/.config/HyprV/wlogout/icons/ ~/.config/wlogout/
     ln -sf ~/.config/HyprV/wofi/config ~/.config/wofi/config
     ln -sf ~/.config/HyprV/wofi/style/style.css ~/.config/wofi/style.css
 
